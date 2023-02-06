@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
 body {
   background-color: hsl(30, 38%, 92%);
 }
@@ -32,6 +36,16 @@ p {
 
 h6 {
   margin-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+h3{
+  font-size: 35px;
+  letter-spacing: -1px;
+  line-height: 1em;
+  font-family: 'Fraunces', serif;
 }
 
 img {
