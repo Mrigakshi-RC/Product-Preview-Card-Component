@@ -29,23 +29,55 @@ body {
 
 h6,
 h3,
-p {
+p, .prices {
   margin-left: 30px;
   margin-right: 45px;
 }
 
 h6 {
-  margin-top: 60px;
+  margin-top: 50px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 13px;
+  letter-spacing:4px;
+  margin-bottom: -7px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 90px;
+  line-height: 1.5em;
+  margin-top: -5px;
+  margin-bottom: -1px;
 }
 
 h3{
-  font-size: 35px;
   letter-spacing: -1px;
   line-height: 1em;
   font-family: 'Fraunces', serif;
+  font-size: 35px;
+}
+
+.price{
+  color: hsl(158, 36%, 37%);
+  margin-top:-3px;
+  margin-left:-1px;
+}
+
+.cut-price{
+  margin-top:7px;
+  margin-left:-20px;
+  font-size: 13px;
+}
+
+.prices{
+  /* border: solid; */
+  height:35px;
+  display: flex;
+  width: 250px;
+  margin-top: 38px;
 }
 
 img {
