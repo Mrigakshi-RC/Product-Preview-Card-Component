@@ -29,7 +29,7 @@ body {
 
 h6,
 h3,
-p, .prices {
+p, button, .prices {
   margin-left: 30px;
   margin-right: 45px;
 }
@@ -70,6 +70,7 @@ h3{
   margin-top:7px;
   margin-left:-20px;
   font-size: 13px;
+  text-decoration: line-through;
 }
 
 .prices{
@@ -82,4 +83,18 @@ h3{
 
 img {
   width: 100%;
+}
+
+button{
+  margin-top:25px;
+  background-color: hsl(158, 36%, 37%);
+  height: 10%;
+  border-radius: 13px;
+  border-style:none;
+}
+
+.button-txt{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 15px;
 }
