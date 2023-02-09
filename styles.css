@@ -96,9 +96,12 @@ h3 {
   margin-top: 38px;
 }
 
-img {
+.image1 {
   width: 100%;
   border-radius: 1rem 0 0 1rem;
+}
+.image2{
+  display:none;
 }
 
 button {
@@ -132,8 +135,13 @@ button:hover {
     height: 40%;
     border-radius: 1rem 1rem 0 0;
   }
-  img {
+  .image1{
+    display:none;
+  }
+  .image2 {
+    display:block;
     height: 100%;
+    width:100%;
     object-fit: cover;
     border-radius: 1rem 1rem 0 0;
   }
