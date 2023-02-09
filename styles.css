@@ -59,7 +59,7 @@ h6 {
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   margin-right: 70px;
   line-height: 1.5em;
   margin-top: -5px;
@@ -107,6 +107,10 @@ button {
   height: 10%;
   border-radius: 0.5rem;
   border-style: none;
+}
+
+button:hover {
+  background-color: hsl(158, 36%, 13%);
 }
 
 .button-txt {
