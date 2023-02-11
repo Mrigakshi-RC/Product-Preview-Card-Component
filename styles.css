@@ -145,8 +145,9 @@ h3 {
   .main-div {
     flex-direction: column;
     width: 90vw;
-    height: 95vh;
-    margin-top: 25px;
+    height: 99vh;
+    margin-left:8%;;
+    margin-top: 10%;
   }
   .container {
     width: 100%;
