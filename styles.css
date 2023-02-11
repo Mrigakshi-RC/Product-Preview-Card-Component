@@ -104,15 +104,17 @@ h3 {
   display:none;
 }
 
-button {
+.button {
+  margin:auto;
   margin-top: 25px;
   background-color: var(--dark-cyan);
   height: 10%;
+  width:80%;
   border-radius: 0.5rem;
   border-style: none;
 }
 
-button:hover {
+.button:hover {
   background-color: hsl(158, 36%, 13%);
 }
 
@@ -121,7 +123,7 @@ button:hover {
   width:70%;
   display:flex;
   height:50%;
-  margin-top:5%;
+  margin-top:7%;
   margin-left:25%;
 }
 
@@ -177,7 +179,7 @@ button:hover {
 
   .white-container{
     width:100%;
-    padding:0px 15px;
+    padding:0px 20px;
   }
 
   h3{
@@ -199,14 +201,16 @@ button:hover {
   .price{
     margin-right:25px;
   }
-  button {
+  .button {
+    margin-right:13%;;
     margin-top: 15px;
     height: 3rem;
-    width:90%
+    width:87%;
   }
   .button-txt{
     margin:auto;
     width:50%;
+    margin-top:4%;
   }
   .button-txt img{
     height:70%;
